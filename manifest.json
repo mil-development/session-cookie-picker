@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Session Cookie Picker",
+  "description": "Вибирає і копіює SESSION cookie зі сторінки, який ви відкрили.",
+  "author": "student.magura@gmail.com",
+  "homepage_url": "https://github.com/Student-Magura/session-cookie-picker",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
